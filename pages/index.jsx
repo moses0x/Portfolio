@@ -58,11 +58,11 @@ export default function Home() {
               Frontend Software Developer
             </h3>
             <p className="text-md py-4 leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto md:text-xl">
-              Hi there! I'm Moses. I'm a frontend developer, with passion for building scaleable software tools/product that actually solve problems in the real world.
-              I'm a computer science student.
+              Hi there! I&apos;m Moses. I&apos;m a frontend developer, with passion for building scaleable software tools/product that actually solve problems in the real world.
+              I&apos;m a computer science student.
             </p>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto md:text-xl">
-              In my spare time, i'm an autodidact, love to read tech articles, go for a walk with myself present while listening to good music.
+              In my spare time, i&apos;m an autodidact, love to read tech articles, go for a walk with myself present while listening to good music.
             </p>
 
             <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400">
