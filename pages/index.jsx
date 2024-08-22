@@ -66,10 +66,10 @@ export default function Home() {
             </p>
 
             <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400">
-              <a href="https://github.com/moses0x" target="_blank"><AiFillGithub /></a>
-              <a href="https://linkedin.com/mosesajila" target="_blank"><AiFillLinkedin /></a>
-              <a href="https://x.com/mosesajila" target="_blank"><AiFillTwitterCircle /></a>
-              <a href="https://gmail.com/mosesajila" target="_blank"><AiFillMail /></a>
+              <a href="https://github.com/moses0x"  target="_blank" rel="noreferrer"><AiFillGithub /></a>
+              <a href="https://linkedin.com/mosesajila" target="_blank" rel="noreferrer"><AiFillLinkedin /></a>
+              <a href="https://x.com/mosesajila"  target="_blank" rel="noreferrer"><AiFillTwitterCircle /></a>
+              <a href="https://gmail.com/mosesajila"  target="_blank" rel="noreferrer"><AiFillMail /></a>
             </div>
             <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96">
               <Image src={deved} layout="fill" objectFit="cover" />
