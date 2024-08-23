@@ -8,9 +8,6 @@ import {
 import { BsFillMoonStarsFill } from "react-icons/bs";
 import { useState } from "react";
 import deved from "../public/dev-ed-wave.png";
-import code from "../public/code.png";
-import design from "../public/design.png";
-import consulting from "../public/consulting.png";
 import Image from "next/image";
 import web1 from "../public/web1.png";
 import web2 from "../public/web2.png";
@@ -18,6 +15,15 @@ import web3 from "../public/web3.png";
 import web4 from "../public/web4.png";
 import web5 from "../public/web5.png";
 import web6 from "../public/web6.png";
+
+import { FaHtml5 } from "react-icons/fa";
+import { IoLogoJavascript } from "react-icons/io5";
+import { FaGithubSquare } from "react-icons/fa";
+import { FaReact } from "react-icons/fa";
+import { FaCss3 } from "react-icons/fa";
+import { SiTailwindcss } from "react-icons/si";
+
+import Contact from "./contact";
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
@@ -66,10 +72,9 @@ export default function Home() {
             </p>
 
             <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400">
-              <a href="https://github.com/moses0x"  target="_blank" rel="noreferrer"><AiFillGithub /></a>
+              <a href="https://github.com/moses0x" target="_blank" rel="noreferrer"><AiFillGithub /></a>
               <a href="https://linkedin.com/mosesajila" target="_blank" rel="noreferrer"><AiFillLinkedin /></a>
-              <a href="https://x.com/mosesajila"  target="_blank" rel="noreferrer"><AiFillTwitterCircle /></a>
-              <a href="https://gmail.com/mosesajila"  target="_blank" rel="noreferrer"><AiFillMail /></a>
+              <a href="https://x.com/mosesajila" target="_blank" rel="noreferrer"><AiFillTwitterCircle /></a>
             </div>
             <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96">
               <Image src={deved} layout="fill" objectFit="cover" />
@@ -86,7 +91,7 @@ export default function Home() {
           </div>
           <div className="lg:flex gap-5">
             <div className="text-center shadow-lg p-5 rounded-xl my-10  dark:bg-white flex-1">
-              <Image src={design} width={100} height={100} />
+              <FaHtml5 style={{ width: '50px', height: '50px' }} />
               <h3 className="text-lg font-medium pt-2 pb-1 ">
                 HTML
               </h3>
@@ -96,7 +101,7 @@ export default function Home() {
             </div>
 
             <div className="text-center shadow-lg p-5 rounded-xl my-10  dark:bg-white flex-1">
-              <Image src={code} width={100} height={100} />
+              <FaCss3 style={{ width: '50px', height: '50px' }} />
               <h3 className="text-lg font-medium pt-2 pb-1 ">
                 CSS
               </h3>
@@ -106,7 +111,7 @@ export default function Home() {
             </div>
 
             <div className="text-center shadow-lg p-5 rounded-xl my-10  dark:bg-white flex-1">
-              <Image src={consulting} width={100} height={100} />
+              <IoLogoJavascript style={{ width: '50px', height: '50px' }} />
               <h3 className="text-lg font-medium pt-2 pb-1 ">
                 JavaScript
               </h3>
@@ -119,7 +124,8 @@ export default function Home() {
 
           <div className="lg:flex gap-5">
             <div className="text-center shadow-lg p-5 rounded-xl my-10  dark:bg-white flex-1">
-              <Image src={consulting} width={100} height={100} />
+              <SiTailwindcss style={{ width: '50px', height: '50px' }} />
+
               <h3 className="text-lg font-medium pt-2 pb-1 ">
                 Tailwind CSS
               </h3>
@@ -129,7 +135,8 @@ export default function Home() {
             </div>
 
             <div className="text-center shadow-lg p-5 rounded-xl my-10  dark:bg-white flex-1">
-              <Image src={design} width={100} height={100} />
+              <FaReact style={{ width: '50px', height: '50px' }} />
+
               <h3 className="text-lg font-medium pt-2 pb-1 ">
                 Reactjs
               </h3>
@@ -139,8 +146,10 @@ export default function Home() {
             </div>
 
             <div className="text-center shadow-lg p-5 rounded-xl my-10  dark:bg-white flex-1">
-              <Image src={code} width={100} height={100} />
+              <FaGithubSquare style={{ width: '50px', height: '50px' }} />
+
               <h3 className="text-lg font-medium pt-2 pb-1 ">
+        
                 Git/Github
               </h3>
               <p className="py-0">
@@ -160,7 +169,7 @@ export default function Home() {
           </div>
           <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
             <div className="basis-1/3 flex-1 ">
-              <a href="#">
+              <a href="https://github.com/moses0x/Order-App">
                 <Image
                   className="rounded-lg object-cover"
                   width={"100%"}
@@ -169,14 +178,31 @@ export default function Home() {
                   src={web1}
                 />
               </a>
-              <h4 className="text-md py-3 mt-4 text-teal-500 uppercase "><a href="#">Food Order App</a></h4>
+              <h4 className="text-md py-2 mt-4 text-teal-500 uppercase "><a href="https://github.com/moses0x/Order-App">Food Order App</a></h4>
+              <p className="text-md leading-6 text-gray-800 dark:text-gray-200">
+                Navigating my professional journey one role/one project at time. my professional journey one role/one project at time. my professional journey one role/one project at time.
+              </p>
+            </div>
+
+            <div className="basis-1/3 flex-1">
+              <a href="https://basecampwave.netlify.app/">
+                <Image
+                  className="rounded-lg object-cover"
+                  width={"100%"}
+                  height={"100%"}
+                  layout="responsive"
+                  src={web5}
+                />
+              </a>
+              <h4 className="text-md py-3 mt-4 text-teal-500 uppercase "><a href="https://github.com/moses0x/moses-brainwave">Brainwave Website</a></h4>
               <p className="text-md leading-6 text-gray-800 dark:text-gray-200">
                 Navigating my professional journey one role/one project at time. my professional journey one role/one project at time. my professional journey one role/one project at time.
               </p>
 
             </div>
+            
             <div className="basis-1/3 flex-1">
-              <a href="#">
+              <a href="https://elegantcontextapi.netlify.app/">
                 <Image
                   className="rounded-lg object-cover"
                   width={"100%"}
@@ -185,68 +211,53 @@ export default function Home() {
                   src={web2}
                 />
               </a>
-              <h4 className="text-md py-3 mt-4 text-teal-500 uppercase "><a href="#">Travel App</a></h4>
+              <h4 className="text-md py-3 mt-4 text-teal-500 uppercase "><a href="https://github.com/moses0x/Fashion-Store">Fashion Store</a></h4>
               <p className="text-md leading-6 text-gray-800 dark:text-gray-200">
-                Navigating my professional journey one role/one project at time. my professional journey one role/one project at time. my professional journey one role/one project at time.
+                 Fashion Store Website built on the concepts of React.js Context API. It includes some basic functionalities but that's all there is about it. Just another step forward into understanding how to apply reactjs concepts.
               </p>
             </div>
             <div className="basis-1/3 flex-1">
-            <a href="#">
-            <Image
-                className="rounded-lg object-cover"
-                width={"100%"}
-                height={"100%"}
-                layout="responsive"
-                src={web3}
-              />
-            </a>
-            <h4 className="text-md py-3 mt-4 text-teal-500 uppercase "><a href="#">Investment Calculator App</a></h4>
+              <a href="https://github.com/moses0x/Basecamp">
+                <Image
+                  className="rounded-lg object-cover"
+                  width={"100%"}
+                  height={"100%"}
+                  layout="responsive"
+                  src={web3}
+                />
+              </a>
+              <h4 className="text-md py-3 mt-4 text-teal-500 uppercase "><a href="https://basecampapp.netlify.app/">Project Management App</a></h4>
               <p className="text-md leading-6 text-gray-800 dark:text-gray-200">
                 Navigating my professional journey one role/one project at time. my professional journey one role/one project at time. my professional journey one role/one project at time.
               </p>
-              
+
             </div>
             <div className="basis-1/3 flex-1">
-            <a href="#">
-            <Image
-                className="rounded-lg object-cover"
-                width={"100%"}
-                height={"100%"}
-                layout="responsive"
-                src={web4}
-              />
-            </a>
-            <h4 className="text-md py-3 mt-4 text-teal-500 uppercase "><a href="#">Brainwave Website</a></h4>
+              <a href="https://investmentcalcx.netlify.app/">
+                <Image
+                  className="rounded-lg object-cover"
+                  width={"100%"}
+                  height={"100%"}
+                  layout="responsive"
+                  src={web4}
+                />
+              </a>
+              <h4 className="text-md py-3 mt-4 text-teal-500 uppercase "><a href="https://github.com/moses0x/Investment-calculator"> Investment Calculator App </a></h4>
               <p className="text-md leading-6 text-gray-800 dark:text-gray-200">
                 Navigating my professional journey one role/one project at time. my professional journey one role/one project at time. my professional journey one role/one project at time.
               </p>
-              
+
             </div>
-            <div className="basis-1/3 flex-1">
-            <a href="#">
-            <Image
-                className="rounded-lg object-cover"
-                width={"100%"}
-                height={"100%"}
-                layout="responsive"
-                src={web5}
-              />
-            </a>
-            <h4 className="text-md py-3 mt-4 text-teal-500 uppercase "><a href="#">Tic-Tac-Toe Game App</a></h4>
-              <p className="text-md leading-6 text-gray-800 dark:text-gray-200">
-                Navigating my professional journey one role/one project at time. my professional journey one role/one project at time. my professional journey one role/one project at time.
-              </p>
-              
-            </div>
+            
             <div className="basis-1/3 flex-1">
               <a href="#">
-              <Image
-                className="rounded-lg object-cover"
-                width={"100%"}
-                height={"100%"}
-                layout="responsive"
-                src={web6}
-              />
+                <Image
+                  className="rounded-lg object-cover"
+                  width={"100%"}
+                  height={"100%"}
+                  layout="responsive"
+                  src={web6}
+                />
               </a>
               <h4 className="text-md py-3 mt-4 text-teal-500 uppercase "><a href="#">Career</a></h4>
               <p className="text-md leading-6 text-gray-800 dark:text-gray-200">
@@ -254,6 +265,10 @@ export default function Home() {
               </p>
             </div>
           </div>
+        </section>
+
+        <section className="py-10">
+          <Contact />
         </section>
       </main>
     </div>
