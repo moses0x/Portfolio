@@ -176,6 +176,7 @@ export default function Home() {
                   height={"100%"}
                   layout="responsive"
                   src={web1}
+                  alt="image"
                 />
               </a>
               <h4 className="text-md py-2 mt-4 text-teal-500 uppercase "><a href="https://github.com/moses0x/Order-App">Food Order App</a></h4>
@@ -192,6 +193,7 @@ export default function Home() {
                   height={"100%"}
                   layout="responsive"
                   src={web5}
+                  alt="image"
                 />
               </a>
               <h4 className="text-md py-3 mt-4 text-teal-500 uppercase "><a href="https://github.com/moses0x/moses-brainwave">Brainwave Website</a></h4>
@@ -209,6 +211,7 @@ export default function Home() {
                   height={"100%"}
                   layout="responsive"
                   src={web2}
+                  alt="image"
                 />
               </a>
               <h4 className="text-md py-3 mt-4 text-teal-500 uppercase "><a href="https://github.com/moses0x/Fashion-Store">Fashion Store</a></h4>
@@ -224,6 +227,7 @@ export default function Home() {
                   height={"100%"}
                   layout="responsive"
                   src={web3}
+                  alt="image"
                 />
               </a>
               <h4 className="text-md py-3 mt-4 text-teal-500 uppercase "><a href="https://basecampapp.netlify.app/">Project Management App</a></h4>
@@ -240,6 +244,7 @@ export default function Home() {
                   height={"100%"}
                   layout="responsive"
                   src={web4}
+                  alt="image"
                 />
               </a>
               <h4 className="text-md py-3 mt-4 text-teal-500 uppercase "><a href="https://github.com/moses0x/Investment-calculator"> Investment Calculator App </a></h4>
@@ -257,6 +262,7 @@ export default function Home() {
                   height={"100%"}
                   layout="responsive"
                   src={web6}
+                  alt="image"
                 />
               </a>
               <h4 className="text-md py-3 mt-4 text-teal-500 uppercase "><a href="#">Career</a></h4>
