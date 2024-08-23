@@ -216,7 +216,7 @@ export default function Home() {
               </a>
               <h4 className="text-md py-3 mt-4 text-teal-500 uppercase "><a href="https://github.com/moses0x/Fashion-Store">Fashion Store</a></h4>
               <p className="text-md leading-6 text-gray-800 dark:text-gray-200">
-                 Fashion Store Website built on the concepts of React.js Context API. It includes some basic functionalities but that"s all there is about it. Just another step forward into understanding how to apply reactjs concepts.
+                 Fashion Store Website built on the concepts of React.js Context API. It includes some basic functionalities but that&quo;s all there is about it. Just another step forward into understanding how to apply reactjs concepts.
               </p>
             </div>
             <div className="basis-1/3 flex-1">
