@@ -60,7 +60,7 @@ export default function Contact() {
                   onChange={handleChange}
                   required
                   className="mt-1 block w-full border-gray-300 rounded-md shadow-sm dark:bg-gray-700 dark:border-gray-600 dark:text-gray-200 text-lg py-6 px-6 focus:border-teal-500 focus:ring focus:ring-teal-500 focus:ring-opacity-50"
-                  style={{ height: '60px' }} // Adjust height to match ChatGPT's input size
+                  style={{ height: "60px" }} // Adjust height to match ChatGPT"s input size
                 />
               </div>
               <div>
@@ -75,7 +75,7 @@ export default function Contact() {
                   onChange={handleChange}
                   required
                   className="mt-1 block w-full border-gray-300 rounded-md shadow-sm dark:bg-gray-700 dark:border-gray-600 dark:text-gray-200 text-lg py-4 px-6 focus:border-teal-500 focus:ring focus:ring-teal-500 focus:ring-opacity-50"
-                  style={{ height: '60px' }} // Adjust height to match ChatGPT's input size
+                  style={{ height: "60px" }} // Adjust height to match ChatGPT"s input size
                 />
               </div>
               <div>
@@ -90,7 +90,7 @@ export default function Contact() {
                   required
                   rows="6"
                   className="mt-1 block w-full border-gray-300 rounded-md shadow-sm dark:bg-gray-700 dark:border-gray-600 dark:text-gray-200 text-lg py-4 px-6 focus:border-teal-500 focus:ring focus:ring-teal-500 focus:ring-opacity-50"
-                  style={{ minHeight: '150px' }} // Make textarea taller
+                  style={{ minHeight: "150px" }} // Make textarea taller
                 />
               </div>
               <div className="text-center">
