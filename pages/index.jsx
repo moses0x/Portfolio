@@ -77,11 +77,11 @@ export default function Home() {
               <a href="https://x.com/mosesajila" target="_blank" rel="noreferrer"><AiFillTwitterCircle /></a>
             </div>
             <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96">
-              <Image src={deved} layout="fill" objectFit="cover" />
+              <Image src={deved} layout="fill" objectFit="cover" alt="hi" />
             </div>
           </div>
         </section>
-        <section className="">
+        <section>
           <div>
             <p className="text-md py-1 text-teal-500 uppercase ">Tools</p>
             <h3 className="text-3xl py-1 dark:text-white ">My Skills</h3>
@@ -91,7 +91,7 @@ export default function Home() {
           </div>
           <div className="lg:flex gap-5">
             <div className="text-center shadow-lg p-5 rounded-xl my-10  dark:bg-white flex-1">
-              <FaHtml5 style={{ width: '50px', height: '50px' }} />
+              <FaHtml5 style={{ width: "50px", height: "50px" }} />
               <h3 className="text-lg font-medium pt-2 pb-1 ">
                 HTML
               </h3>
@@ -101,7 +101,7 @@ export default function Home() {
             </div>
 
             <div className="text-center shadow-lg p-5 rounded-xl my-10  dark:bg-white flex-1">
-              <FaCss3 style={{ width: '50px', height: '50px' }} />
+              <FaCss3 style={{ width: "50px", height: "50px" }} />
               <h3 className="text-lg font-medium pt-2 pb-1 ">
                 CSS
               </h3>
@@ -111,7 +111,7 @@ export default function Home() {
             </div>
 
             <div className="text-center shadow-lg p-5 rounded-xl my-10  dark:bg-white flex-1">
-              <IoLogoJavascript style={{ width: '50px', height: '50px' }} />
+              <IoLogoJavascript style={{ width: "50px", height: "50px" }} />
               <h3 className="text-lg font-medium pt-2 pb-1 ">
                 JavaScript
               </h3>
@@ -124,7 +124,7 @@ export default function Home() {
 
           <div className="lg:flex gap-5">
             <div className="text-center shadow-lg p-5 rounded-xl my-10  dark:bg-white flex-1">
-              <SiTailwindcss style={{ width: '50px', height: '50px' }} />
+              <SiTailwindcss style={{ width: "50px", height: "50px" }} />
 
               <h3 className="text-lg font-medium pt-2 pb-1 ">
                 Tailwind CSS
@@ -135,7 +135,7 @@ export default function Home() {
             </div>
 
             <div className="text-center shadow-lg p-5 rounded-xl my-10  dark:bg-white flex-1">
-              <FaReact style={{ width: '50px', height: '50px' }} />
+              <FaReact style={{ width: "50px", height: "50px" }} />
 
               <h3 className="text-lg font-medium pt-2 pb-1 ">
                 Reactjs
@@ -146,7 +146,7 @@ export default function Home() {
             </div>
 
             <div className="text-center shadow-lg p-5 rounded-xl my-10  dark:bg-white flex-1">
-              <FaGithubSquare style={{ width: '50px', height: '50px' }} />
+              <FaGithubSquare style={{ width: "50px", height: "50px" }} />
 
               <h3 className="text-lg font-medium pt-2 pb-1 ">
         
@@ -176,7 +176,6 @@ export default function Home() {
                   height={"100%"}
                   layout="responsive"
                   src={web1}
-alt='hi'
                 />
               </a>
               <h4 className="text-md py-2 mt-4 text-teal-500 uppercase "><a href="https://github.com/moses0x/Order-App">Food Order App</a></h4>
@@ -193,7 +192,6 @@ alt='hi'
                   height={"100%"}
                   layout="responsive"
                   src={web5}
-alt='hi'
                 />
               </a>
               <h4 className="text-md py-3 mt-4 text-teal-500 uppercase "><a href="https://github.com/moses0x/moses-brainwave">Brainwave Website</a></h4>
@@ -211,12 +209,11 @@ alt='hi'
                   height={"100%"}
                   layout="responsive"
                   src={web2}
-alt='hi'
                 />
               </a>
               <h4 className="text-md py-3 mt-4 text-teal-500 uppercase "><a href="https://github.com/moses0x/Fashion-Store">Fashion Store</a></h4>
               <p className="text-md leading-6 text-gray-800 dark:text-gray-200">
-                 Fashion Store Website built on the concepts of React.js Context API. It includes some basic functionalities but that's all there is about it. Just another step forward into understanding how to apply reactjs concepts.
+                 Fashion Store Website built on the concepts of React.js Context API. It includes some basic functionalities but that"s all there is about it. Just another step forward into understanding how to apply reactjs concepts.
               </p>
             </div>
             <div className="basis-1/3 flex-1">
@@ -227,7 +224,6 @@ alt='hi'
                   height={"100%"}
                   layout="responsive"
                   src={web3}
-alt='hi'
                 />
               </a>
               <h4 className="text-md py-3 mt-4 text-teal-500 uppercase "><a href="https://basecampapp.netlify.app/">Project Management App</a></h4>
@@ -244,7 +240,6 @@ alt='hi'
                   height={"100%"}
                   layout="responsive"
                   src={web4}
-alt='hi'
                 />
               </a>
               <h4 className="text-md py-3 mt-4 text-teal-500 uppercase "><a href="https://github.com/moses0x/Investment-calculator"> Investment Calculator App </a></h4>
@@ -262,7 +257,6 @@ alt='hi'
                   height={"100%"}
                   layout="responsive"
                   src={web6}
-alt='hi'
                 />
               </a>
               <h4 className="text-md py-3 mt-4 text-teal-500 uppercase "><a href="#">Career</a></h4>
