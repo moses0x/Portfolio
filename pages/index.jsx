@@ -23,7 +23,7 @@ import { FaReact } from "react-icons/fa";
 import { FaCss3 } from "react-icons/fa";
 import { SiTailwindcss } from "react-icons/si";
 
-import Contact from "./contact";
+import Contact from "./Contact.jsx";
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
