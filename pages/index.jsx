@@ -3,7 +3,6 @@ import {
   AiFillTwitterCircle,
   AiFillLinkedin,
   AiFillGithub,
-  AiFillMail,
 } from "react-icons/ai";
 import { BsFillMoonStarsFill } from "react-icons/bs";
 import { useState } from "react";
@@ -265,7 +264,7 @@ export default function Home() {
                   alt="image"
                 />
               </a>
-              <h4 className="text-md py-3 mt-4 text-teal-500 uppercase "><a href="#">Career</a></h4>
+              <h4 className="text-md py-3 mt-4 text-teal-500 uppercase "><a href="#">Product Filtering UI</a></h4>
               <p className="text-md leading-6 text-gray-800 dark:text-gray-200">
                 Navigating my professional journey one role/one project at time. my professional journey one role/one project at time. my professional journey one role/one project at time.
               </p>
